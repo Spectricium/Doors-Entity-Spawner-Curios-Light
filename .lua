@@ -286,6 +286,7 @@ Spawner.runEntity = function(entityTable)
                               firesignal(ReSt.EntityInfo.DeathHint.OnClientEvent, entityTable.Config.CustomDialog, "Yellow")
                             else
                               firesignal(ReSt.EntityInfo.DeathHint.OnClientEvent, entityTable.Config.CustomDialog, "Blue")
+                            end
                         end
                         
                         -- Unmute entity
